@@ -86,7 +86,7 @@ app.get('/estudantes', function(req,res){
     });
 
     app.post('/update-estudante', function(req, res){
-        var nomecompleto = req.body.body;
+        var nomecompleto = req.body.nomecompleto;
         var email = req.body.email;
         var senha = req.body.senha;
         var id = req.body.id;
